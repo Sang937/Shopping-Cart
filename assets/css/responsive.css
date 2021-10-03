@@ -139,9 +139,7 @@ iPad 3
 **********/
 @media only screen and (min-device-width : 48em) and (max-device-width : 64em) {
 /* Styles */
-  .wrapper {
-    padding: 3rem;
-  }
+
 
 
 }
@@ -149,10 +147,8 @@ iPad 3
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 76.5em) {
 /* Styles */
-.wrapper {
-    padding: 3rem;
-  }
-}
+} 
+
 /* Large screens ----------- */
 @media only screen  and (min-width :114em) {
 /* Styles */
