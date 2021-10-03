@@ -1,5 +1,5 @@
 /*mobile*/
-@media only screen and (min-width:240px) and (max-width:480px) {
+@media only screen and (min-width:15em) and (max-width:30em) {
 
   /* nav */
   nav .content-nav {
@@ -77,7 +77,7 @@
 
 
 /*tablet*/
-@media (min-width:480px) and (max-width:768px) {
+@media (min-width:30em) and (max-width:48em) {
 
   .wrapper {
     padding: 1.5rem;
@@ -126,4 +126,34 @@
   .cart-price {
     margin-right: 1rem;
   }
+  .content-product .content-product-deltals .btn-cart {
+    font-size: 8px;
+  }
+  .btn {
+  padding: .3rem .6rem;
+}
+}
+
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 48em) and (max-device-width : 64em) {
+/* Styles */
+  .wrapper {
+    padding: 3rem;
+  }
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 76.5em) {
+/* Styles */
+.wrapper {
+    padding: 3rem;
+  }
+}
+/* Large screens ----------- */
+@media only screen  and (min-width :114em) {
+/* Styles */
 }
